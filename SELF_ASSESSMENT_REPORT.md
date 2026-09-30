@@ -1,5 +1,7 @@
 # Self assessment — IA#1
 
+GitHub link: https://github.com/hi0302/wad-cart
+
 | # | Criterion | Max | Claimed | Evidence |
 |---|---|---|---|---|
 | 1 | cartTotal chạy đúng yêu cầu | 30 | 29 | src/cart.js: Math.round trả về một số; `>=` cho free ship; giỏ rỗng thì trả về 0 trước VAT; Throw RangeError cho trường hợp giá tiền âm và qty không nguyên dương. Test "the example from the slides" trả 467400. |
